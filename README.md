@@ -13,5 +13,8 @@ Conditions :
 Lens Distortion
 1. radial distortion
 2. tangent distortion
-  Paper : Lens Distortion Calibration Using Point Correspondences 
+
+Paper : Lens Distortion Calibration Using Point Correspondences 
+
+###Pinhole Model
   
