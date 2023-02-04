@@ -1,5 +1,16 @@
 # Calibration
 
+Purpose : Calibrating a humanoid's all views. 
+Moving self driving by itself.
+
+
+Humanoid service lists
+1) baby caring
+2) folding clothes
+3) achoire route play
+4) dryer machine, dehumidifier machine controlling time, systematic system. 절차적인
+
+
 ## Extrinsic Calibration
 Reference Paper : Extrinsic Calibration of a Camera and Laser
 Range Finder (improves camera calibration) 
