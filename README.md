@@ -25,6 +25,17 @@ Lens Distortion
 1. radial distortion
 2. tangent distortion
 
+
+# 1. Removing Lens Distortion - radial distortion
+a. Pincushion distortion (positive radial distortion)
+b. No distortion
+c. Barrel distortion (negative radial distortion)
+
+Barrel distortion
+1. get a central point using 4 points. 
+
+
+
 Paper : Lens Distortion Calibration Using Point Correspondences 
 
 ###Pinhole Model
