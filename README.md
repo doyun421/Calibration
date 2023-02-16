@@ -38,5 +38,5 @@ Barrel distortion
 
 Paper : Lens Distortion Calibration Using Point Correspondences 
 
-###Pinhole Model
+#Pinhole Model
   
