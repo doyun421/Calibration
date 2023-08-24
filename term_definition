@@ -1,1 +1,10 @@
+Purpose of Robotics Calibration. 
 
+  1. Detecting correct path's line with 98% accuracy.
+  2. Preventing accidents related with calibration inaccuracy causing issues.
+  3. Types of issues of calibration
+      a) Weather changes.
+      b) Network Issues. 
+      c) unpredicted visual affection. 
+      d) embedded system's issue causing.
+  4) 
