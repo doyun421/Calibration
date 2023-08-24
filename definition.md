@@ -9,14 +9,14 @@
   6. Preventing reputation damage.
 
 
-Types of Issues of Calibration
+### Types of Issues of Calibration
 
       a) Weather changes.
       b) Network Issues. 
       c) unpredicted visual affection. 
       d) embedded system's issue causing. 
 
- Milestone
+Milestone
 
 
 
