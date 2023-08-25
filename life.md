@@ -1,5 +1,17 @@
 # Goal of Life
 
-  1. Creating and Provising Guard Robot to all weakness persons with cheap expense.
-  2. Interior/repair expense calculation, need exact dates and plans.
-  3. steps for earning. 
+ ## 1. Creating and Provising Guard Robot to all weakness persons with cheap expense.
+ 
+ ## 2. Interior/repair expense calculation, need exact dates and plans.
+ 
+ ## 3. steps for earning.
+       a. 30-32 : Nvidia as 20000,    
+                  Youtube Shopping Mall as Uniqlo for only weakness person warmer only for winter, 
+                  Smart Store with Scrubbers as 10, 100, 1000, 10000
+                  Novel for Diet for Diabetes, Disk patients as 0
+                  Business for planner app as 10, 100, 1000
+                  Business for Robotics Services as 10, 100
+                  
+       b. 32-34 : 
+       c. 34-40 :
+       d. 40-50 :
