@@ -2,7 +2,7 @@
 
  ## 1. Creating and Provising Guard Robot to all weakness persons with cheap expense.
  
- ## 2. Interior/repair expense calculation, need exact dates and plans.
+ ## 2. Interior/repair expense calculation, need exact dates and plans, adding mom/dad, mom/dad in law 's hospital/health care plan.
  
  ## 3. steps for earning.
        a. 30-32 : Nvidia as 20000,    
@@ -15,3 +15,5 @@
        b. 32-34 : 
        c. 34-40 :
        d. 40-50 :
+
+       
