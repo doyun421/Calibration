@@ -5,15 +5,15 @@
  ## 2. Adding
  Interior/repair expense calculation, need exact dates and plans, adding mom/dad, mom/dad in law 's hospital/health care plan.
  
-1) 
-(2023.09.25) new company join
-
-(2023.09.28-09.30) thanksgiving day
-gifts 
-
-(2023.10.22) moved to a new house around 당산
-
-(2025.05.05) wedding 
+       1) 
+       (2023.09.25) new company join
+       
+       (2023.09.28-09.30) thanksgiving day
+       gifts 
+       
+       (2023.10.22) moved to a new house around 당산
+       
+       (2025.05.05) wedding 
 
 
  ## 3. steps for earning.
