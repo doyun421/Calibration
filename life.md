@@ -2,12 +2,22 @@
 
  ## 1. Creating and Provising Guard Robot to all weakness persons with cheap expense.
  
- ## 2. Adding
+ ## 2. Adding detailed info
  Interior/repair expense calculation, need exact dates and plans, adding mom/dad, mom/dad in law 's hospital/health care plan.
  
        1) 
        (2023.09.25) new company join
-       
+              more than 200 persons,
+              data mathematically scientist
+              more than 54k $ 
+              must use english all day
+              must work with foreigners
+              must be remote work and full time
+              not moving a lot
+              not work after 6pm
+              not lot of useless work
+              
+
        (2023.09.28-09.30) thanksgiving day
        gifts 
        
