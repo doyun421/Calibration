@@ -16,6 +16,8 @@
               not moving a lot
               not work after 6pm
               not lot of useless work
+              only have good and nice persons
+              
               
 
        (2023.09.28-09.30) thanksgiving day
