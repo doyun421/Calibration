@@ -9,7 +9,7 @@
        (2023.09.25) new company join
               more than 200 persons,
               data mathematically scientist
-              more than 54k $ 
+              more than 54k$ 
               must use english all day
               must work with foreigners
               must be remote work and full time
@@ -17,7 +17,7 @@
               not work after 6pm
               not lot of useless work
               only have good and nice persons
-              
+              can work more than 3 years 
               
 
        (2023.09.28-09.30) thanksgiving day
