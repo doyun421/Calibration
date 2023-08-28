@@ -63,5 +63,13 @@
        b. 32-34 : 
        c. 34-40 : 
        d. 40-50 : 
+## 4. plan for leisure and appointment and celebration dates. 
 
+    I just wanna peace. need be planned all the time. 
+    communicating with lots of people like through novel. 
+    Be lonely for living as honesty. 
+    
+
+
+    
        
