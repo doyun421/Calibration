@@ -1,14 +1,20 @@
+just do what I really want
 
-Self Driving Car 
-Lane Line
-Nvidia data scientist work 
-system software engineer 
-perception software engineer 
 
-data scientist 
+NVIDIA Isaac ROS
 
-Isaac ROS DNN Inference 
+Occupancy Grid Map Localizer
+Upgraded Visual SLAM
+  cuVSLAM
 
-Nvidia triton/TensorRT
-Cuda, 
+NVIDIA Isaac Transport for ROS (NITROS)
+Efficient Hardware Acceleration
 
+Visual SLAM Based Localization
+3D Scene Reconstruction with NvBlox
+
+DNN Inference Processing 
+
+Stereo Perception
+
+High-Performance Perception With NITROS Pipelines 
