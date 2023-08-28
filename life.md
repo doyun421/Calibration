@@ -3,7 +3,7 @@
  ## 1. Creating and Provising Guard Robot to all weakness persons with cheap expense.
  
  ## 2. Adding detailed info
- Interior/repair expense calculation, need exact dates and plans, adding mom/dad, mom/dad in law 's hospital/health care plan.
+ Interior/repair expense calculation, need exact dates and plans, adding mom/dad, mom/dad in law 's hospital/health care plan. 
  
        1) 
        (2023.09.25) new company join
@@ -31,7 +31,7 @@
               a. 잡플래닛 기업 검색 후기 괜찮 top 5 순서 작성
               b. 잡플래닛 후기 작성
               c. 회사 채용공고 나만의 우선순위
-              d. 교집합 찾기
+              d. 교집합 찾기 
               e. 스케쥴링 물리적으로 가능, 심리적으로는 5시까지만 정리하고 싶음. 그 외에는 공부하고 싶음. 
               f. 외국계 기업 관련 커뮤니티 정보 및 점수 보고 우선순위 나열!
           
@@ -61,7 +61,7 @@
 
 
        b. 32-34 : 
-       c. 34-40 :
-       d. 40-50 :
+       c. 34-40 : 
+       d. 40-50 : 
 
        
