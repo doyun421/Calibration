@@ -49,8 +49,10 @@
 
 
 foward during 10 years. 
-31 - 41: 
+31 - 41: what I am, skin care strictly, health care with radium, wealth, house, family, job, business.
+          
         several business and several investment 
+        maching learning robotics and economy
         
 
 
