@@ -48,7 +48,10 @@
 
 
 
-
+foward during 10 years. 
+31 - 41: 
+        several business and several investment 
+        
 
 
 
