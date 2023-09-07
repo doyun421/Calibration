@@ -58,6 +58,10 @@ Milestone
                     how to find the intrinsic and extrinsic properties of a camera
                     how to undistort images based off these properties
               Basics: 
+                      Radial distortion causes straight lines to appear curved. 
+                      x_distorted = x(1 + k_1*r^2 + k_2*r^4 + k_3*r^6)
+                      y_distorted = y(1 + k_1*r^2 + k_2*r^4 + k_3*r^6)
+                      
       
 
 # 2. Understanding the Construction of Vanishing Point and Horizon
