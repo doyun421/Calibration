@@ -73,6 +73,20 @@ Milestone
                                                       is a simple camera without a lens but with a tiny aperture (the so-called pinhole) eddectively a light-proof box with a small hole in one side.
                                     * Kn is the n_th radial distortion coefficient
                                     * Pn is the n_th tangential distortion coefficient
+
+
+                      Focal length (fx, fy) and optical centers (cx, cy) can be used to create a camera matrix(intrinsic parameters)
+                      Extrinsic parameters corresponds to rotation and translation vectors which translates a coordinates of a 3D point to a coordinate system.
+
+                      
+
+### code
+        Setup
+              3D points are called object points and 2D image points are called image points.
+              Finds the positions of internal corners of the chessboard. 
+              
+        1. termination criteria (기준) 
+        
       
 
 # 2. Understanding the Construction of Vanishing Point and Horizon
