@@ -44,3 +44,17 @@ Milestone
 (a point at which something disappears or ceases to exist) and horizon line of a single image and then convert them to the roll, pitch, and yaw angles ![image](https://github.com/doyun421/Calibration/assets/73266189/c23ccda1-9aae-4bb7-8db1-f6ae9baa3dbe)
       4) 
 
+# 1. A Single Camera 3D Functions
+      1) We have to understand the basics of how a camera turn a 3D scene into a 2D image. 
+      camera coordinate system where the camera sensor position is the origin (0, 0, 0) and the x, y, z axis of the camera coordinate system. 
+
+      v/fy = y/z
+      x/fx = x/z
+
+      2) Extrinsic Matrix
+                  
+      
+
+# 2. Understanding the Construction of Vanishing Point and Horizon
+# 3. Recovering Extrinsic Rotation Matrix with Vanshing Points
+
