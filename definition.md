@@ -106,6 +106,27 @@ Milestone
                               https://docs.opencv.org/3.4/d1/d5c/tutorial_py_kmeans_opencv.html
 
           2. prepare object points, like (0,0,0), (1,0,0), (2,0,0), ... , (6,5,0)
+                              np.zeros
+                                      shape: int or tuple of ints
+                                      e.g., (2, 3) or (2)
+                                      dtype : data-type, optional 
+                                      numpy.int. Default is numpy.float64.
+                                      order: Whether to store multi-dimensional data in row-ajor (C-style) or column-major (Fortran-style) order in memory.
+                                      e.g., np.zeros((2, 4), dtype=int)
+                                      array([[ 0., 0. ], 
+                                             [ 0., 0. ], 
+                                             [ 0., 0. ],
+                                             [ 0., 0. ]])
+
+                              np.mgrid
+                                      An instance which returns a dense (or fleshed out - to provide more information about) mesh-grid(Return a list of coordinate matrices from coordinate vectors) when indexed.
+                                      x1, x2, ... , x: array_like
+                                            1-D arrays representing the coordinates of grid.
+                                      indexing: {'xy', 'ij'}
+                                            Cartesian ('xy', default) or matrix('ij')indexing of output.
+                                            
+                                      
+                  
                               
                       
                       
