@@ -86,7 +86,29 @@ Milestone
               Finds the positions of internal corners of the chessboard. 
               
         1. termination criteria (기준) 
-        
+                               The class defining termination criteria for iterative algorithms. 
+                               enum is a special class that represents a group of constants.
+                               enum type {
+                                          COUNT = 1, 
+                                          MAX_ITER = COUNT, 
+                                          EPS = 2 (epsilon)
+                                          }
+                              Stop the algorithm iteration if specified accuracy, epsilon, is reached.
+                              Stop the iteration when any of the aboe condition is met
+                              max_iter: An integer specifying maximum number of iterations.
+                              epsilon: Required accuracy.
+                              
+                              cv::TermCriteria::TermCriteria ( int type, 
+                                                               int maxCount,
+                                                               double epsilon
+                                                               )
+                              cv::TermCriteriaMaxIter
+                              https://docs.opencv.org/3.4/d1/d5c/tutorial_py_kmeans_opencv.html
+
+          2. prepare object points, like (0,0,0), (1,0,0), (2,0,0), ... , (6,5,0)
+                              
+                      
+                      
       
 
 # 2. Understanding the Construction of Vanishing Point and Horizon
