@@ -55,7 +55,7 @@ Milestone
 
       2) Extrinsic Matrix
               Goal: types of distortion caused by cameras (Radial distortion-barrel distortion, Pincushion distortion, Mustache distortion.), (tangential distortion(De-centering), compound distortions which combines barrel, pincushion, and tangential effects)
-                    how to finnd the intrinsic and extrinsic properties of a camera
+                    how to find the intrinsic and extrinsic properties of a camera
                     how to undistort images based off these properties
               Basics: 
       
