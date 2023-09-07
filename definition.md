@@ -124,8 +124,15 @@ Milestone
                                             1-D arrays representing the coordinates of grid.
                                       indexing: {'xy', 'ij'}
                                             Cartesian ('xy', default) or matrix('ij')indexing of output.
-                                            
+
                                       
+                                            
+                              numpy.linspace
+                                      Return evenly spaced numbers over a specified interval.
+                                      np.linspace(2.0, 3.0, num=3)
+                                      = array([2., 2.5, 3. ])
+                                      
+                                            
                   
                               
                       
