@@ -32,7 +32,11 @@ b. No distortion
 c. Barrel distortion (negative radial distortion)
 
 Barrel distortion
-1. get a central point using 4 points. 
+1. get a central point using 4 points.
+
+
+
+
 
 
 
