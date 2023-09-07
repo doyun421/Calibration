@@ -54,10 +54,10 @@ Milestone
 ![calibration_camera_coordinate](https://github.com/doyun421/Calibration/assets/73266189/80377570-67c5-41bb-97f7-d263c678294b)
 
       2) Extrinsic Matrix
-              Goal: types of distortion caused by cameras
+              Goal: types of distortion caused by cameras (Radial distortion-barrel distortion, Pincushion distortion, Mustache distortion.), (tangential distortion(De-centering), compound distortions which combines barrel, pincushion, and tangential effects)
                     how to finnd the intrinsic and extrinsic properties of a camera
                     how to undistort images based off these properties
-                  
+              Basics: 
       
 
 # 2. Understanding the Construction of Vanishing Point and Horizon
