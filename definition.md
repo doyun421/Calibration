@@ -167,7 +167,10 @@ Milestone
                              Finds the positions of internal corners of the chessboard 
                              A regular chessboard has 8*8 sqauares and 7*7 internal corners
                              Renders the detected chessboard corners. 
-                          
+                             * patternSize: Number of inner corners per a chessboard row and column
+                             ![image](https://github.com/doyun421/Calibration/assets/73266189/b7f5066b-7e8e-4969-b05a-6a5c71295038)
+
+               5. If found, add object points, image points
                
                       
       
