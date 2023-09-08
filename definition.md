@@ -164,6 +164,10 @@ Milestone
                               
                3. Arrays to store object and image points from all the images. 
                4. Find the chess board corners
+                             Finds the positions of internal corners of the chessboard 
+                             A regular chessboard has 8*8 sqauares and 7*7 internal corners
+                             Renders the detected chessboard corners. 
+                          
                
                       
       
