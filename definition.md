@@ -121,8 +121,9 @@ Milestone
                               np.meshgrid ( != mgrid)
                                       returns a grid that is useful in plotting contour plots of 3D graphs.
                                       1. The input array to make a grid out of
-                                      2. It you want a 2D grid
-                                      3. 
+                                      2. If you want a 2D grid
+                                      3. Whether to return a sparse grid. Set this to True if you'r dealing with large volumes of data that cannot be fit into memeory.
+                                      4. 
                                       
                                       x1, x2, ... , x: array_like
                                             1-D arrays representing the coordinates of grid.
