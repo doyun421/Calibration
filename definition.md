@@ -118,15 +118,31 @@ Milestone
                                              [ 0., 0. ],
                                              [ 0., 0. ]])
 
-                              np.mgrid
+                              np.mgrid != np.meshgrid
                                       An instance which returns a dense (or fleshed out - to provide more information about) mesh-grid(Return a list of coordinate matrices from coordinate vectors) when indexed.
                                       x1, x2, ... , x: array_like
                                             1-D arrays representing the coordinates of grid.
                                       indexing: {'xy', 'ij'}
                                             Cartesian ('xy', default) or matrix('ij')indexing of output.
 
-                                      
-                                            
+                              np.mgrid
+                                      An instance which returns a dense (or fleshed out) mesh-grid when indexed, 
+                                      index an indicator, sign, or measure of something.
+                                      link the value of automatically to the value of a price index.
+                                      If the step length is a complex number (e.g. 5j), then the integer part of its magnitude is interpreted asaspecifying the number of points to create between the starat and stop values, where the stop value is inclusive. 
+                                      np.mgrid[0:5, 0:5]
+                                      = array([[[0, 0, 0, 0, 0],
+                                                [1, 1, 1, 1, 1],
+                                                [2, 2, 2, 2, 2],
+                                                [3, 3, 3, 3, 3],
+                                                [4, 4, 4, 4, 4]],
+                                               [[0, 1, 2, 3, 4], 
+                                                [0, 1, 2, 3, 4],
+                                                [0, 1, 2, 3, 4],
+                                                [0, 1, 2, 3, 4],
+                                                [0, 1, 2, 3, 4]]])
+                                      np.mgrid[-1:1:5j]
+                                      = array([-1., -0.5, 0., 0.5, 1. ])
                               numpy.linspace
                                       Return evenly spaced numbers over a specified interval.
                                       np.linspace(2.0, 3.0, num=3)
