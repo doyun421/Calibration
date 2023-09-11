@@ -187,12 +187,13 @@ Milestone
 
 
 
-                  # cumulative distribution function (CDF) of a real-valued random variable X, or just distribution function of X, evaluated at x, is the probability that X will take a value less than or equal to x. 
+                  # cumulative distribution function (CDF) of a real-valued random variable X, or just distribution function of X, evaluated at x, is the probability that X will take a value less than or equal to x. Every probability distribution supported on the real numbers, 
                   
                   *(dispersion (also called variability, scatter, or spread) is the extent to which a distribution is stretched or squeezed (stretch shows opposite tendencies related with squeezed). 
                   
                         Example of samples from two populations with the same mean but different dispersion. The blue population is much more dispersed than the red population. 
-                  
+                  * Support
+                  In mathematics, the support (sometimes topological support or spectrum) of a measure u on a measurable topological space 
                   
                   f_s(x) = F(x/s)/s,
                   f(x) same f_(s=1)(x).
