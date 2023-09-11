@@ -193,7 +193,8 @@ Milestone
                   
                         Example of samples from two populations with the same mean but different dispersion. The blue population is much more dispersed than the red population. 
                   * Support
-                  In mathematics, the support (sometimes topological support or spectrum) of a measure u on a measurable topological space 
+                  In mathematics, the support (sometimes topological support or spectrum) of a measure u on a measurable topological space.  
+                  
                   
                   f_s(x) = F(x/s)/s,
                   f(x) same f_(s=1)(x).
