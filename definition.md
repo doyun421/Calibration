@@ -8,7 +8,7 @@
       Accuracy Standarzation
          = Number of correct predictions / Total number of predictions
          = TP + TN / (TP + TN + FP + FN) 
-         code : tn, fn, tp, fp = confusion_matrix(y_test, y_pred).ravel() 
+         code : tn, fn, tp, fp = confusion_matrix(y_tests, y_pred).ravel() 
                 print ((tp+tn) / (tn+fn+tp+fp)) 
          
      
