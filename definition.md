@@ -181,7 +181,9 @@ Milestone
                 Just call the function and use ROI (Region of Intereset, ROI) obtained above to crop the result. 
                 * ROI 
                   일몰 사진 안에서 관심 영역인 태양 주위를 초록색 사각형으로 표시한 이미지. 
-                  
+                 
+                  f_s(x) = F(x/s)/s,
+                  f(x) same f_(s=1)(x).
       
                       
       
