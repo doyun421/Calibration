@@ -181,7 +181,19 @@ Milestone
                 Just call the function and use ROI (Region of Intereset, ROI) obtained above to crop the result. 
                 * ROI 
                   일몰 사진 안에서 관심 영역인 태양 주위를 초록색 사각형으로 표시한 이미지. 
-                 
+
+                  "s" is called a scale parameter, since its value determines the "scale" or statistical disperison of the probability distribution. If s is large, then the distribution will be more spread out; if s is small then it will be more concentrated. 
+
+
+
+
+                  # cumulative distribution function (CDF) of a real-valued random variable X, or just distribution function of X, evaluated at x, is the probability that X will take a value less than or equal to x. 
+                  
+                  *(dispersion (also called variability, scatter, or spread) is the extent to which a distribution is stretched or squeezed (stretch shows opposite tendencies related with squeezed). 
+                  
+                        Example of samples from two populations with the same mean but different dispersion. The blue population is much more dispersed than the red population. 
+                  
+                  
                   f_s(x) = F(x/s)/s,
                   f(x) same f_(s=1)(x).
       
