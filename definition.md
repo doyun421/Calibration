@@ -171,7 +171,18 @@ Milestone
                              ![image](https://github.com/doyun421/Calibration/assets/73266189/b7f5066b-7e8e-4969-b05a-6a5c71295038)
 
                5. If found, add object points, image points
-               
+ 
+        ### Undistortion
+            Refine the camera matrix based on a free scaling parameter (Scale parameter: 
+                              
+
+            
+        1. Using cv.undistort()
+                Just call the function and use ROI (Region of Intereset, ROI) obtained above to crop the result. 
+                * ROI 
+                  일몰 사진 안에서 관심 영역인 태양 주위를 초록색 사각형으로 표시한 이미지. 
+          
+      
                       
       
 
