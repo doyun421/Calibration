@@ -200,6 +200,15 @@ Milestone
                   f(x) same f_(s=1)(x).
 
 
+
+                  I tried hardly search what I need but I will try other way as create own creatures. 
+
+
+
+
+                  
+
+
                   
                       
       
