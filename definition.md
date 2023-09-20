@@ -196,14 +196,6 @@ Milestone
                   In mathematics, the support (sometimes topological support or spectrum) of a measure u on a measurable topological space.  
                   
                   
-                  f_s(x) = F(x/s)/s,
-                  f(x) same f_(s=1)(x).
-
-
-
-                  I tried hardly search what I need but I will try other way as create own creatures. 
-
-
 
 
                   
