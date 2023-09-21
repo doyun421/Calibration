@@ -298,8 +298,39 @@ Milestone
                   In mathematics, the support (sometimes topological support or spectrum) of a measure u on a measurable topological space.  
                   
 
+         We designed four corresponding methods according to the
+characteristics of each sensor. For the camera, we use a deep
+learning network to predict the vanishing point and horizon
+line of a single image and then convert them to the roll,
+pitch, and yaw angles. For LiDAR, we use simultaneous
+localization and mapping.
+
+
+
+
+SLAM
+
           
-          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
