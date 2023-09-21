@@ -248,7 +248,10 @@ Milestone
 just do only what can you do and then do all things left.
 for fast process, you must skip what you didn't know. 
 later you can find what was broken had been solved. 
-                  
+
+                  1. find all you can do. and do!
+                  2. retry what you couldn't do last time. - find all thing you can do.
+                  3. extremely you couldn't know info --> you can ask professor or other expert. 
 
 
                   
