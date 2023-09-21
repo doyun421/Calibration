@@ -63,14 +63,14 @@ Milestone
                       x_distorted = x(1 + k_1*r^2 + k_2*r^4 + k_3*r^6)
                       y_distorted = y(1 + k_1*r^2 + k_2*r^4 + k_3*r^6)
 
-                      Tangential distortion occurs because the image-taking lense is not aligned perfectly parallel to the imaging plane. 
+                      Tangential distortion occurs because the image-taking lens is not aligned perfectly parallel to the imaging plane. 
                       x_distorted = x + [2p_1*xy + p_2(r^2 + 2x^2)]
                       y_distorted = y + [p_1(r^2 + 2y^2) + 2p_2*xy]
 
                       Distortion coefficients = (k1, k2, p1, p2, k3)
                       
                                     * Pinhole camera: 
-                                                      is a simple camera without a lens but with a tiny aperture (the so-called pinhole) eddectively a light-proof box with a small hole in one side.
+                                                      is a simple camera without a lens but with a tiny aperture (the so-called pinhole) effectively a light-proof box with a small hole in one side.
                                     * Kn is the n_th radial distortion coefficient
                                     * Pn is the n_th tangential distortion coefficient
 
