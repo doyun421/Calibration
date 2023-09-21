@@ -96,11 +96,18 @@ Milestone
                 ## Intrinsic Matrix
                       shift origin of image plane to top left. 
                       A point defined in the camera coordinate system can be projected into the image plane. 
+                      that involves fx, fy that scales the x and y values of camera coordinate system to u and v values of the image plane. which translate the origin of the image from the centre to the top left corner of the image. The full camera matrix, P, that takes in the world coordinate point and project it to the image plane with the full formula. Since K is a 3x3 matrix and [R|t] is a 3x4 matrix, P is a 3x4 matrix. As P is not a square matrix, its matrix inverse is not possible and hence this again shows the difficulty in back calculating the x,y,z world coordinates with u,v pixels of camera image. Even if P inverse is possible, an image coordinate only contains u and v, the absence of Zc, depth of image, would make inverse calculation (P inverse)(Zc)([u v 1]) impossible.
 
 
+                    ### Homography
+                    However, there is a technique called homography to recover 3D position from image pixels when the z direction in the world coordinate system is ignored. In another words, we consider only a plane in the 3D world. If the z direction in the world coordinate is ignored, the 4x3 camera matrix, P, can be reduced to a 3x3 homography matrix, H. A square matrix is able to have its inverse, H-1, which can map a u, v pixel of a image to a x,y, 0 coordinate in the world coordinate system as shown below.
+                    In fact, image to image mapping is also possible as you can define the first image in the world coordinates with z=0. Such a technique is often used in telecast of swimming competition when a image of national flags is transformed onto swimming pool lanes.
 
 
+                ### Inverse Mapping
+                Distance is distorted in a perspective view as a fixed distance nearer to the camera appear bigger and same distance further away from the camera appear smaller.  to rectify the image from a perspective view to a top-down orthogonal view to measure distance (https://arxiv.org/pdf/1905.02231.pdf).
 
+                Given an image that is captured by a camera that is pitch at at angle, first get the camera coordinates, then rotate the camera axis around the camera coordinates x axis to face perpendicular to the ground, and re-project the rotated camera coordinates onto the image plane.
 
 
 
