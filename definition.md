@@ -78,7 +78,32 @@ Milestone
                       Focal length (fx, fy) and optical centers (cx, cy) can be used to create a camera matrix(intrinsic parameters)
                       Extrinsic parameters corresponds to rotation and translation vectors which translates a coordinates of a 3D point to a coordinate system.
 
-                      
+
+                      Pick a reference point in the 3D world, mark it as the origin and define the world coordinate system axis. Rotate and translate the wolrd coordinate system to the camera coordinate system. A 3D point defined in the world coordinate system will now be in the camera coordinate system. 
+
+                      Notice that by [x, y, z] facilitates (possible 가능하게 하다) the dot product to obtain the camera coordinates of the point in 3D space. R refers to the rotation matrix and t refers to a translation matrix that first rotates a point to camera coordinate system orientation and translate it to camera coordinate system. [R|T] is also called the extrinsic camera matrix that rotates and translate object in the specified world coordinate system to the camera coordinate system. 
+
+
+
+                    ### Homogeneous Coordinates
+                    [x, y, z] and [Xc, Yc, Zc] are called homogeneous coordinates and such camera matrix transformation is a projective transformation described by homogeneous coordinates. A three dimensional world point is represented by four homogeneous coordinates with the last coordinate. A two dimensional point on the image is represented by three homogenous coordinates with the last coordinate the depth(Z axis) of the point. To better understand homogenous coordinates, we will use the two dimensional image point represented by three homogenous coordinates as an example since three dimension can be depicted in drawings. A point on the image (0, 200) can be seen as a ray from the origin as (0, 200, 1).
+
+
+
+
+
+
+                ## Intrinsic Matrix
+                      shift origin of image plane to top left. 
+                      A point defined in the camera coordinate system can be projected into the image plane. 
+
+
+
+
+
+
+
+
 
 ### code
         Setup
@@ -195,9 +220,27 @@ Milestone
                   * Support
                   In mathematics, the support (sometimes topological support or spectrum) of a measure u on a measurable topological space.  
                   
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                   
-
-
+                  
+just do only what can you do and then do all things left.
+for fast process, you must skip what you didn't know. 
+later you can find what was broken had been solved. 
                   
 
 
