@@ -87,6 +87,17 @@ foward during 10 years.
     I just wanna peace. need be planned all the time. 
     communicating with lots of people like through novel. 
     Be lonely for living as honesty. 
+
+
+
+
+    오늘 할 일 
+    칼리 다 끝내고 이력서 어느 정도 중요한 것만 다 쓴 다음 
+    지원 5군데 하기. 그리고 다음 주에 면접 3군데 
+    가장 좋은 곳 골라서 가기. 
+    워라벨 꼭 챙겨주는 곳으로
+    복지 가능한 곳으로
+
     
 
 
