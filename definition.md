@@ -308,9 +308,28 @@ localization and mapping.
 
 
 
-SLAM
+# SLAM
 
-          
+    paper: Object recognition for SLAM in floor environments using a depth sensor
+    
+     Depth sensors have been adopted to various robot
+applications these days, Especially, when it comes to
+recognizing some objects or obstacles in the challenging
+environments, depth information becomes an essential
+tool for achieving such advanced tasks, Among the various
+researches based on depth sensors, depth sensor based
+object recognition is popularly used for visual servoing [1]
+and simultaneous localization and mapping (SLAM)
+
+      However, in case of SLAM, a robot is seldom
+requested to find a specific object Instead, SLAM intends
+to find as many robust landmarks as possible to generate a
+feature map while the robot localizes itself Thus, it is
+found that unsupervised learning is a more realistic
+approach for SLAM to implement the object recognition
+scheme, 
+
+
 
 
 
