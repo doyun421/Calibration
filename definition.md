@@ -112,6 +112,19 @@ Milestone
 
 
 
+
+
+                ## Understanding the Construction of Vanishing Point and Horizon 
+                An image captured by a camera is a perspective view, which is akin to what our eyes see. In persective view, real-world dimensions, ratio and parallel lines are not presevered. For example, a photograph of a road shows road lines converging into a point while the road lines in the real world are parallel to each other. Cars seem smaller when they are further from the camera even if they are about the same size.
+
+                
+                to the camera pointing direction, has the same vanishing point in the perspective view (see red, green and blue vectors in image below). However if the set of parallel vector in the 3D environment has no component that is parallel to the camera direction (see purple vectors below), there is no vanishing point. All vectors which are only horizontal (does not have any up or down component) (only red and green vectors) would have vanishing points on the horizon (yellow line below). The horizon is hence a line of vanishing points for the horizontal vectors. These horizontal vectors usually are the ground plane or the interior ceiling.
+
+                
+
+
+
+
 ### code
         Setup
               3D points are called object points and 2D image points are called image points.
