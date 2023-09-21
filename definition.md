@@ -253,7 +253,10 @@ later you can find what was broken had been solved.
                   2. retry what you couldn't do last time. - find all thing you can do.
                   3. extremely you couldn't know info --> you can ask professor or other expert. 
 
-
+                  4. accumulate all info from papers, codes, gits, or competitons, else, books, youtube, else. in a week. 
+                  9.21 - 9.28 
+                  and apply most famous school or company or business for earning money..
+                  
                   
                       
       
