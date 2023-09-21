@@ -120,8 +120,64 @@ Milestone
                 
                 to the camera pointing direction, has the same vanishing point in the perspective view (see red, green and blue vectors in image below). However if the set of parallel vector in the 3D environment has no component that is parallel to the camera direction (see purple vectors below), there is no vanishing point. All vectors which are only horizontal (does not have any up or down component) (only red and green vectors) would have vanishing points on the horizon (yellow line below). The horizon is hence a line of vanishing points for the horizontal vectors. These horizontal vectors usually are the ground plane or the interior ceiling.
 
+                which is the eye level of the drawer. Everything which is at the same height at his eye level should be at the horizon. Parallel lines on the ground are horizontal vector and they converage at a vanishing point on the horizon.
+
+
+                Using camera diagrams, we will try to understand how the horizon is formed on the image plane and why the object that is at the same height as the camera is at the horizon. The 3D environment is projected onto a 2D image by a camera as in the following diagram. A camera (camera center and image plane below) is placed at certain height off the ground and is tilted to look down on the ground.
+
+                
+                As object on the ground gets very far away from the camera, its light ray will come in almost horizontal (dotted arrow line below) through the camera center and project onto the image plane. Hence, the horizon or height of horizontal vector vanishing point on the image can be found with the intersection of horizontal vector and the image plane. Object at the same height as the camera will also be horizontally projected onto the image plane through the camera center.
+
+
+
+                ## Recovering Extrinsic Rotation Matrix with Vanishing Points
+
+
+                Those who are familiar with camera projection matrix knows that while intrinsic matrix describe the camera focal length, the extrinsic matrix gives the information on where the camera is and its orientation in relation to the target world. Knowing the extrinsic matrix (rotation) may help us recover the target world orientation to the camera. For example, what angles is the camera pitching and yawing relative to the horizontal ground, that could be further used in localisation of objects. Vanishing points of the ground surface on the image can help us back-calculate the extrinsic matrix (rotation). However, let us first understand how to calculate the vanishing points with extrinsic matrix before the reverse.
+
+                ### Extrinsic Matrix
+                Firstly, lets revisit the extrinsic matrix. The extrinsic matrix transform the target scene and objects in the world coordinate system to the camera coordinate system. This involves a rotation of world origin to the orientation of the camera axis, and a translation to camera position, as describe by the animation below. After the transformation the target scene and objects will be in the camera coordinate system. The intrinsic matrix then projects the target scene and objects onto the image plane in the projection matrix formula, z[u, v, 1]= K[r1 r2 r3 | t][x, y, z, 1](A Single Camera 3D Functions).
+
+
+                ### Calculating Vanishing Points with Intrinsic & Extrinsic Matrix
+
+                If the extrinsic matrix and intrinsic matrix is known (through camera calibration: OpenCV method), we can find the vanishing points of the target scene world coordinate axis on the image. Firstly, we can calculate the Vworldy, the vanishing point of world y vector on the image by the formula below. The world y point vector at the infinity can be represented as (0,1,0,0). The camera projection matrix formula then project the point vector as Kr2 as Vworldy in the formula below.
+
+
+                Similarly, the Vworldx, the vanishing point of world x vector on the image can be calculated by representing the world x point vector as (1,0,0,0) and using the the projection matrix to obtain Kr1.
+
+                The last world z axis vanishing point, Vworldz, on the image can be simply obtained with the cross product of Vworldx and Vworldy since we know that Vworldz is a axis orthgonal to Vworldx and Vworldy. Vworldx and Vworldy are vectors with respect to the camera coordinate origin and the cross product of 2 vectors will give you the third vector that is orthogonal to them.
+
+
+
+                ### Recovering Extrinsic Matrix (Rotation) with Estimated Vanishing Points
+                Vanishing points on the image can be estimated by vanishing point estimation algorithm. For example, projecting a cone of lines on the image to a image point (see diagram below).
+                
+                After obtaining the estimated vanishing points (u1, v1) and (u2, v2), column vectors of extrinsic matrix r1, r2, and r3 can be back-calculated as below.
+
+                ### Rotation Matrix to Fixed Angles Around Axis
+                The rotation matrix can tell us the angle of rotation around the world x axis (pitch), the angle of rotation around the world y axis (roll) and the angle of rotation around the world z axis (yaw) to the camera coordinate system. Firstly, each rotation around an axis can be expressed as a rotation matrix with its rotation angle (A, B or C). This link help us to understand a rotation matrix around an axis better. The combined rotation matrix around all three angles can be expressed as successive dot products of rotation matrices starting the first x rotation matrix on the right, second y rotation matrix in the middle and third z rotation matrix on the left
+
+
+                
+                
                 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                
 
 
 
@@ -242,7 +298,7 @@ Milestone
                   
 
           
-
+          
 
 
 
