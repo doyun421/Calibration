@@ -331,10 +331,32 @@ scheme,
 
 
 
+ is the computational problem of constructing or updating a map of an unknown environment while simultaneously keeping track of an agent's location within it. While this initially appears to be a chicken or the egg problem, there are several algorithms known to solve it in, at least approximately, tractable 다루기 쉬운 time for certain environments. 
+
+
+ sensor observations o_{t} over discrete time steps t, the SLAM problem is to compute an estimate of the agent's state x_{t} and a map of the environment m_{t}. All quantities are usually probabilistic, so the objective is to compute[1]
+
+    Applying Bayes' rule gives a framework for sequentially updating the location posteriors, given a map and a transition function 
+P(x_{t}|x_{t-1}),
+
+
+### particle filter (sequential Monte Carlo)
+    
 
 
 
 
+### Monte Carlo method
+
+      ### Random Sampling
+             sampling is the selection of a subset or a statistical sample (termed sample for short) of individuals from within a statistical population to estimate characteristics of the whole population. Statisticians attempt to collect samples that are representative of the population. Sampling has lower costs and faster data collection compared to recording data from the entire population, and thus, it can provide insights in cases where it is infeasible to measure an entire population.
+
+             In a simple random sample (SRS) of a given size, all subsets of a sampling frame have an equal probability of being selected. Each element of the frame thus has an equal probability of selection
+
+             ### deterministic system
+                 A deterministic model will thus always produce the same output from a given starting condition or initial state.[2]
+                 
+             
 
 
 
