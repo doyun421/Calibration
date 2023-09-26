@@ -377,7 +377,17 @@ P(x_{t}|x_{t-1}),
          the histogram classification is not acheived based on any clustering methods.
    Instead, we use the point feature histogram in a geometrical way to learn its varying characteristics depending on the shape.
 
-           The curvature is another property of the surface appearnace which provides more detailed information on the shape elements. 
+           The curvature is another property of the surface appearnace which provides more detailed information on the shape elements.
+
+
+
+          ## A Statistical Approach to Place Recognition in SLAM (paper)
+
+                     
+   
+   
+
+           
 ### particle filter (sequential Monte Carlo)
     
 
@@ -431,9 +441,8 @@ just do only what can you do and then do all things left.
 for fast process, you must skip what you didn't know. 
 later you can find what was broken had been solved. 
 
-                  1. find all you can do. and do!
-                  2. retry what you couldn't do last time. - find all thing you can do.
-                  3. extremely you couldn't know info --> you can ask professor or other expert. 
+                  1.
+                  2. 
 
                   4. accumulate all info from papers, codes, gits, or competitons, else, books, youtube, else. in a week. 
                   9.21 - 9.28 
