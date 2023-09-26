@@ -335,6 +335,7 @@ indoor environment Thus, it is natural that the objects on
 the floor are most likely to be seen rather than the objects
 in other places, Based on this observation, the objects can
 be detected by rejecting the floor, As a pre-processing step,
+
 the surface normals are computed for every pixel in a
 depth image, 
 
