@@ -382,6 +382,7 @@ P(x_{t}|x_{t-1}),
              ### deterministic system
                  A deterministic model will thus always produce the same output from a given starting condition or initial state.[2]
 
+
                  
              
 
