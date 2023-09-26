@@ -329,6 +329,31 @@ found that unsupervised learning is a more realistic
 approach for SLAM to implement the object recognition
 scheme, 
 
+        2. Object Detection based on Floor Rejection and Point Features.
+              In general, mobile robots navigate on the floor in the
+indoor environment Thus, it is natural that the objects on
+the floor are most likely to be seen rather than the objects
+in other places, Based on this observation, the objects can
+be detected by rejecting the floor, As a pre-processing step,
+the surface normals are computed for every pixel in a
+depth image, 
+
+
+
+![image](https://github.com/doyun421/Calibration/assets/73266189/3f3679f3-3724-4bc0-99a8-38329429d97e)
+
+
+                tilt angle theta_f, height from the floor h_f, 
+                
+2.2 Object Representation based on Surface Appearances
+           representation은 그냥 표시로 봐도 되나
+           extract the descriptor 
+
+           theta's value why?
+           
+           
+
+
 
 
  is the computational problem of constructing or updating a map of an unknown environment while simultaneously keeping track of an agent's location within it. While this initially appears to be a chicken or the egg problem, there are several algorithms known to solve it in, at least approximately, tractable 다루기 쉬운 time for certain environments. 
@@ -355,6 +380,7 @@ P(x_{t}|x_{t-1}),
 
              ### deterministic system
                  A deterministic model will thus always produce the same output from a given starting condition or initial state.[2]
+
                  
              
 
