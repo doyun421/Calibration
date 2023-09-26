@@ -347,12 +347,7 @@ depth image,
                 tilt angle theta_f, height from the floor h_f, 
                 
 2.2 Object Representation based on Surface Appearances
-           representation은 그냥 표시로 봐도 되나
-           extract the descriptor 
-
-           theta's value why?
-           
-           
+         
 
 
 
@@ -366,6 +361,23 @@ depth image,
 P(x_{t}|x_{t-1}),
 
 
+
+      it counts the angle parameters with similar values and stores its ratio into the bin of the histogram array.
+
+
+
+
+3. Object-Level Descriptor Extraction based on Point Feature Classification
+
+
+      3.1 Surface Classification using Point Features.
+         The depth sensor providing the point cloud of the environment can be used to define the surface appearance.
+
+
+         the histogram classification is not acheived based on any clustering methods.
+   Instead, we use the point feature histogram in a geometrical way to learn its varying characteristics depending on the shape.
+
+           The curvature is another property of the surface appearnace which provides more detailed information on the shape elements. 
 ### particle filter (sequential Monte Carlo)
     
 
