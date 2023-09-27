@@ -405,9 +405,13 @@ P(x_{t}|x_{t-1}),
                  A deterministic model will thus always produce the same output from a given starting condition or initial state.[2]
 
 
+          ## Simultaneous Localization and Mapping 
+          is the task of updating a map of an unknown environment while simultaneously keeping track of agent's location.
+          
                  
              
-
+            ### Kimera
+            real-time metric-semantic simultaneous localization and mapping
 
 
 
@@ -441,8 +445,9 @@ just do only what can you do and then do all things left.
 for fast process, you must skip what you didn't know. 
 later you can find what was broken had been solved. 
 
-                  1.
-                  2. 
+                  1. all papers related with calibrations and robotics searched. 
+                  2. read all them and test code.
+                  3. create code as new. 
 
                   4. accumulate all info from papers, codes, gits, or competitons, else, books, youtube, else. in a week. 
                   9.21 - 9.28 
