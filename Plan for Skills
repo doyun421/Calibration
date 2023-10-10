@@ -1,0 +1,21 @@
+오늘의 목표
+10/10 화요일
+SLAM 관련 개념 모두 다 정리한 뒤에 
+코드 직접 연관 지어 보기. 
+그리고 실행 완료해 보기. 
+이게 현실성이 없기 때문에
+
+계획성이 안되네 
+관련 개념 계획 자체를 세우기. 
+전체적인 개념에 대한 계획을 미리 세우는 게 훨씬 중요함. 
+
+
+what is SLAM
+Visual SLAM
+Lidar SLAM
+
+Common challenges 
+1. Localization errors accumulate, causing substantial deviation from actual values
+2. Localization fails and the position on the map is lost
+3. High computational cost for image processing, point cloud processing, and optimization
+
