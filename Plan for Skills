@@ -8,6 +8,13 @@ SLAM 관련 개념 모두 다 정리한 뒤에
 계획성이 안되네 
 관련 개념 계획 자체를 세우기. 
 전체적인 개념에 대한 계획을 미리 세우는 게 훨씬 중요함. 
+공부 계획은 이렇게 세우는 거구나.. 
+왜 이걸 몰랐지..
+
+일단 공부 계획 세운 다음에 
+관련 지식이나 미디어 및 교재 등을 찾아보는 것도 중요.. 
+
+키워드 위주로만
 
 
 what is SLAM
@@ -18,4 +25,121 @@ Common challenges
 1. Localization errors accumulate, causing substantial deviation from actual values
 2. Localization fails and the position on the map is lost
 3. High computational cost for image processing, point cloud processing, and optimization
+
+
+### Streaming and Reading Lidar Data
+
+Read point cloud
+Write point cloud
+Visualize and Store
+Sensor Model 
+
+examples
+
+
+### Lidar Preprocessing
+Preliminary Processing
+Block Processing
+Organize Point Cloud
+Find Points in Point Cloud
+Detect and Extract Features
+Register Point Clouds
+Convert Point Clouds
+Surface Mesh Workflow
+Storage
+
+
+### Visualize and Analyze Lidar Data
+
+
+### Lidar Semantic Segmentation
+Geometrical
+Deep Learning
+   Load Training Data
+   Augment and Preprocess Training Data 
+   Define Layers
+   Design Networks
+   Segment Point Cloud
+   Visualize Results
+   Evaluate Results
+
+
+
+### Object Detection on Lidar Point Clouds
+Geometric
+  Shape Fitting
+  Geometric Models
+
+Deep Learning
+  Load Training Data
+  Augment and Preprocess Training Data
+  Object Detection
+  Visualize Results
+  Evaluate Results
+
+
+
+### Lidar Labeling
+Create Labels and Lavel Definitions
+  Use Lidar Labels
+  Create Label Definitions
+  Load Ground Truth Sources
+  Sync External Image Viewer
+
+Automate Labeling
+  Action Flags
+  Validations
+  Algorithms
+
+### Lidar-Camera Calibration
+Detect Calibration Parameters
+Calibrate Lidar and Camera
+Fuse Sensor Data
+
+
+### Lidar Registration and Simultaneous Localization and Mapping (SLAM)
+Detect, Extract, and Match Features
+Register Point Clouds
+Estimate Pose
+Build Map
+Perform 2-D SLAM
+Visualize Results
+Sensor Model
+Storage
+
+### Lidar PGO 
+
+Functions
+expand all
+Detect, Extract, and Match Features
+Register Point Clouds
+Estimate Pose
+Build Map
+Perform 2-D SLAM
+Visualize Results
+Sensor Model
+Storage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
