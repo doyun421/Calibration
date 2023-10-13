@@ -440,20 +440,7 @@ P(x_{t}|x_{t-1}),
 
 
                   
-                  
-just do only what can you do and then do all things left.
-for fast process, you must skip what you didn't know. 
-later you can find what was broken had been solved. 
 
-                  1. all papers related with calibrations and robotics searched. 
-                  2. read all them and test code.
-                  3. create code as new. 
-
-                  4. accumulate all info from papers, codes, gits, or competitons, else, books, youtube, else. in a week. 
-                  9.21 - 9.28 
-                  and apply most famous school or company or business for earning money..
-                  
-                  
                       
       
 
